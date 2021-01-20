@@ -19,7 +19,7 @@ import Header from './Header';
 import Footer from './Footer';
 import axios from 'axios';
 
-const ANON_SHORTEN_URL = 'http://192.168.29.241:9200/api/anon_shorten';
+const ANON_SHORTEN_URL = 'https://skipto.site/api/anon_shorten';
 
 const schema = yup.object().shape({
   url: yup
